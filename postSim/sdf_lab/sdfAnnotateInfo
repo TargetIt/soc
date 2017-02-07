@@ -1,0 +1,23 @@
+
+# ***************************** SDF Annotate *****************************
+#
+# Static entries from SDF files:
+#
+#  IOPATH              =                    2
+#
+#
+
+# Annotated entries in elaborated design:
+#
+#  IOPATH Delays       =                    1
+#
+#  Annotated instances =                    1
+#  Total instances     =                    4
+#
+
+# Static entries in elaborated design:
+#  IOPATH Delays       =                    1
+#  Timing Checks       =                    0
+#
+# ************************************************************************
+#

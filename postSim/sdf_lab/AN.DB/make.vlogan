@@ -1,0 +1,22 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -full64
+
+all :		_VCSgd_nGFE7b_1.db \
+	_VCSgd_xoAtUb_1.db \
+	_VCSgd_sXKgR_1.db \
+
+
+
+_VCSgd_nGFE7b_1.db :	top.v 
+		${VLOGAN}  ${VLOGAN_OPT} top.v
+
+
+_VCSgd_xoAtUb_1.db :	dut.v 
+		${VLOGAN}  ${VLOGAN_OPT} dut.v
+
+
+_VCSgd_sXKgR_1.db :	HD45_LS_BFX14.v 
+		${VLOGAN}  ${VLOGAN_OPT} HD45_LS_BFX14.v
+
+

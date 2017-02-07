@@ -1,0 +1,5 @@
+--#STA9
+--##STA9                : ./vcs_lib/STA9
+BUF_1   : ./vcs_lib/BUF_1
+BUF_2   : ./vcs_lib/BUF_2
+top   : ./vcs_lib/top

@@ -1,0 +1,23 @@
+
+Warning-[UNKWN_IGOPTS] Unknown option(s) ignored
+  Unknown option(s) '+overlap +neg_tchk -negdelay +sdfverbose 
+  +transport_path_delays +pulse_e/0 +pulse_r/0 ' passed to 'vlogan' command 
+  line is(are) ignored.
+  Please make sure that there are no typos in the option(s) passed. Also check
+  'vlogan -help' for supported options. 
+
+Command: vlogan -full64 -work BUF_1 +mindelays +no_notifier +overlap +neg_tchk -negdelay \
++sdfverbose +transport_path_delays +pulse_e/0 +pulse_r/0 BUF_1.v BUF_2.v -l BUF_1_ana.log \
+
+                         Chronologic VCS (TM)
+       Version K-2015.09-SP1_Full64 -- Tue Sep 27 19:33:07 2016
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'BUF_1.v'
+Parsing design file 'BUF_2.v'
+CPU time: .112 seconds to compile

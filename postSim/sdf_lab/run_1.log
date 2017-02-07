@@ -1,0 +1,21 @@
+Command: vcs -full64 -debug +mindelays +no_notifier +overlap +neg_tchk -negdelay \
++sdfverbose +transport_path_delays +pulse_e/0 +pulse_r/0 top.v dut.v HD45_LS_BFX14.v \
+HD45_LS_BFX14_2.v -timescale=1ns/1ps -Xman=28 -l run_1.log
+                         Chronologic VCS (TM)
+       Version K-2015.09-SP1_Full64 -- Tue Oct  4 16:15:04 2016
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'top.v'
+Parsing design file 'dut.v'
+Parsing design file 'HD45_LS_BFX14.v'
+Parsing design file 'HD45_LS_BFX14_2.v'
+Mangled verilog is in tokens.v
+Top Level Modules:
+       top
+TimeScale is 1 ns / 1 ps
+CPU time: .061 seconds to compile + .008 seconds to elab

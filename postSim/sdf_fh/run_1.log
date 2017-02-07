@@ -1,0 +1,75 @@
+Command: vcs -full64 -debug +mindelays +no_notifier +overlap +neg_tchk -negdelay \
++sdfverbose +transport_path_delays +pulse_e/0 +pulse_r/0 top.v dut.v HD45_LS_BFX14.v \
+HD45_LS_BFX14_2.v -timescale=1ns/1ps -l run_1.log
+                         Chronologic VCS (TM)
+       Version K-2015.09-SP1_Full64 -- Mon Sep 26 14:48:29 2016
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'top.v'
+Parsing design file 'dut.v'
+Parsing design file 'HD45_LS_BFX14.v'
+Parsing design file 'HD45_LS_BFX14_2.v'
+Top Level Modules:
+       top
+TimeScale is 1 ns / 1 ps
+
+   ***   $sdf_annotate() version 1.2R
+   ***    SDF file: "/ux/fhearth/qingpwang/fh.pst.try/debug/sdf/test.sdf"
+   ***    Annotation scope: top.u_dut
+   ***    SDF Annotator log file: "u_dut_sdf.log"
+   ***    No MTM selection argument specified
+   ***    No SCALE FACTORS argument specified
+   ***    No SCALE TYPE argument specified
+   ***    MTM selection defaulted to "TOOL_CONTROL":
+               (+mindelays compiled, MINIMUM delays selected)
+   ***    SCALE FACTORS defaulted to "1.0:1.0:1.0":
+   ***    SCALE TYPE defaulted to: "FROM_MTM"
+   ***    Turnoff delay: "FROM_FILE"
+   ***    Approximation (mipd) policy: "MAXIMUM"
+
+   ***    SDF annotation begin: Mon Sep 26 14:48:29 2016
+
+
+SDF Info: +pulse_r/0, +pulse_e/0 in effect
+
+Warning-[SDFCOM_IANE] IOPATH Annotation Not Enabled
+/ux/fhearth/qingpwang/fh.pst.try/debug/sdf/test.sdf, 22
+module: HD45_LS_BFX14_2, "instance: top.u_dut.buf2"
+  SDF Warning: Cannot find matching IOPATH in the corresponding instance and 
+  module.
+  Please make sure that specify block exists and IOPATH annotation is not 
+  disabled in configuration file.
+
+
+          Total errors: 0
+          Total warnings: 1
+   ***    SDF annotation completed: Mon Sep 26 14:48:29 2016
+
+
+Starting Overlap Optimizations ...
+Done Overlap Optimizations
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+make: Warning: File `filelist.cu' has modification time 10 s in the future
+rm -f _csrc*.so linux64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o \
+_prev_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/libzerosoft_rt_stubs.so \
+/ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/libvirsim.so /ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/liberrorinf.so \
+/ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/libsnpsmalloc.so \
+/ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/libvcsnew.so /ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/libsimprofile.so \
+/ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/libuclinative.so \
+-Wl,-whole-archive /ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/libvcsucli.so \
+-Wl,-no-whole-archive          /ux/cad3/cad/tools/synopsys/vcs_inst/vcs_2015.09sp1_mx/linux64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .148 seconds to compile + .232 seconds to elab + .306 seconds to link

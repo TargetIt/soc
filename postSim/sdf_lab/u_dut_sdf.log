@@ -1,0 +1,34 @@
+
+   ***   $sdf_annotate() version 1.2R
+   ***    SDF file: "/ux/fhearth/qingpwang/fh.pst.try/debug/sdf/test.sdf"
+   ***    Annotation scope: top.u_dut
+   ***    SDF Annotator log file: "u_dut_sdf.log"
+   ***    No MTM selection argument specified
+   ***    No SCALE FACTORS argument specified
+   ***    No SCALE TYPE argument specified
+   ***    MTM selection defaulted to "TOOL_CONTROL":
+               (+mindelays compiled, MINIMUM delays selected)
+   ***    SCALE FACTORS defaulted to "1.0:1.0:1.0":
+   ***    SCALE TYPE defaulted to: "FROM_MTM"
+   ***    Turnoff delay: "FROM_FILE"
+   ***    Approximation (mipd) policy: "MAXIMUM"
+
+   ***    SDF annotation begin: Tue Oct  4 16:13:39 2016
+
+
+SDF Info: +pulse_r/0, +pulse_e/0 in effect
+
+Warning-[SDFCOM_IANE] IOPATH Annotation Not Enabled
+/ux/fhearth/qingpwang/fh.pst.try/debug/sdf/test.sdf, 22
+module: HD45_LS_BFX14_2, "instance: top.u_dut.buf2"
+  SDF Warning: Cannot find matching IOPATH in the corresponding instance and 
+  module.
+  Please make sure that specify block exists and IOPATH annotation is not 
+  disabled in configuration file.
+
+
+          Total errors: 0
+          Total warnings: 1
+   ***    SDF annotation completed: Tue Oct  4 16:13:39 2016
+
+
