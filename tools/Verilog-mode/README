@@ -1,0 +1,13 @@
+www.veripool.org
+
+
+how to use verilog mode?
+
+USE EMACS
+	1 emacs example.v
+	2 use M-x --> verilog-mode to enter verilog mode
+	3 use C-c C-a to excute cmd
+
+For VIM
+	http://www.vim.org/scripts/script.php?script_id=1875
+
