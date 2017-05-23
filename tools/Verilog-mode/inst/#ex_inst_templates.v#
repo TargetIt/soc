@@ -1,0 +1,27 @@
+module ex_inst (o,i)
+   input i;
+   output [31:0] o;
+/* psm_mas AUTO_TEMPLATE (
+        .o  (o[@"(% (+ 1 @) 4)"]));
+*/
+   fanout fanout0 (/*AUTOINST*/
+		   // Outputs
+		   .o			(o[31:0]),
+		   // Inputs
+		   .i			(i));
+   fanout fanout1 (/*AUTOINST*/
+		   // Outputs
+		   .o			(o[31:0]),
+		   // Inputs
+		   .i			(i));
+   fanout fanout2 (/*AUTOINST*/
+		   // Outputs
+		   .o			(o[31:0]),
+		   // Inputs
+		   .i			(i));
+   fanout fanout3 (/*AUTOINST*/
+		   // Outputs
+		   .o			(o[31:0]),
+		   // Inputs
+		   .i			(i));
+endmodule

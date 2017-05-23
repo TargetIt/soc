@@ -1,0 +1,11 @@
+module ex_inst (o,i)
+   input i;
+   output [31:0] o;
+/* fanout AUTO_TEMPLATE (
+        .o  (o[@"(% (+ 1 @) 4)"]));
+*/
+   fanout fanout0 (/*AUTOINST*/);
+   fanout fanout1 (/*AUTOINST*/);
+   fanout fanout2 (/*AUTOINST*/);
+   fanout fanout3 (/*AUTOINST*/);
+endmodule
