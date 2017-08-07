@@ -2,6 +2,7 @@
 
 Used to record my SoC design experience
 
+
 # Tools 
 
 >https://www.veripool.org/  
@@ -12,6 +13,24 @@ Used to record my SoC design experience
 >http://www.asic-world.com/verilog/tools.html  
 
 # IPs
-
+* OpenCore  
+* Open Hardware for Chip Designers  
+  https://github.com/parallella/oh  
 # SoCs
->ARM designstart    
+
+* **ARM designstart**    
+  * A demo SoC
+  * system testbench example  
+  * simulation environment    
+    * compile the test code
+    * compile the RTL  
+    * run the simulation   
+  * Software Examples  
+    * driver files  
+    * retargeting  
+  * Implementation  
+    * constraints  
+    * synthesis  
+    * dft  
+* Risc-v  
+  * 
