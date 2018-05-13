@@ -1,0 +1,39 @@
+module dut(/*AUTOARG*/);
+
+/*AUTOINPUT*/
+/*AUTOOUTPUT*/
+/*AUTOWIRE*/
+
+/* aand AUTO_TEMPLATE (
+.z (z[0]),
+.a (a[0]),
+.b (b[0]),
+);
+*/
+aand aand(/*AUTOINST*/);
+
+/* 
+oor AUTO_TEMPLATE(
+.\(.*\) (\1[1]),
+);
+*/
+oor oor(/*AUTOINST*/);
+
+/*
+bbuf AUTO_TEMPLATE(
+.a(z[@]),
+.z(y[@]),
+);
+*/
+bbuf bbuf0(/*AUTOINST*/);
+bbuf bbuf1(/*AUTOINST*/);
+/*
+iinv AUTO_TEMPLATE (
+.z(y[@"(+ 2 @)"]),
+.a(a[@"(+ 2 @)"]),
+);
+*/
+iinv iinv0(/*AUTOINST*/);
+iinv iinv1(/*AUTOINST*/);
+
+endmodule
